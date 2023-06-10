@@ -1,0 +1,40 @@
+body{
+    background-color: #484848;
+    color: rgb(239, 235, 228);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 33vw;
+    color: rgb(239, 235, 228);
+    margin-top: 20px;
+
+}
+main{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#btn{
+    background-color: rgb(12, 112, 242);
+    border: 0;
+    border-radius: 10px;
+    color: rgb(239, 235, 228);
+    width: 120px;
+    height: 30px;
+    text-transform: uppercase;
+}
+#btn:hover{
+    background-color: rgb(10, 74, 158);
+    cursor: pointer;
+}
+
+.form{
+    border-radius: 10px;
+    border: 0;
+    margin: 8px;
+    height: 20px;
+    width: 200px;
+}
